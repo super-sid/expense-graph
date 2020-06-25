@@ -1,0 +1,28 @@
+.options__row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 1em;
+}
+.options__col {
+  order: 0;
+}
+
+.select__options_input {
+  -webkit-box-shadow: 0px 0px 15px -3px rgba(138, 134, 138, 0.81);
+  -moz-box-shadow: 0px 0px 15px -3px rgba(138, 134, 138, 0.81);
+  box-shadow: 0px 0px 15px -3px rgba(138, 134, 138, 0.81);
+  appearance: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  padding: 0.5em 2em 0.5em 1em;
+  border: 0;
+  border-radius: 2em;
+  font-family: "Ariel";
+  color: #9fa9ba;
+  margin-left: 1em;
+  font-weight: bolder;
+  font-size: 1em;
+}

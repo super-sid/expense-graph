@@ -1,0 +1,46 @@
+.main__head {
+  display: flex;
+  flex-direction: column;
+}
+.main__head_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Avenir";
+  align-items: center;
+  margin: 1em;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.main__head_col {
+  order: 0;
+}
+.main__head_col h3 {
+  margin: 0;
+  font-weight: bolder;
+}
+.main__head_col small {
+  font-size: small;
+  font-weight: bolder;
+  margin-bottom: 1em;
+}
+.profit_and_loss {
+  display: flex;
+  flex-direction: column;
+}
+.loss_pad,
+.profit_pad {
+  padding: 0.2em;
+  padding-top: 0.4em;
+  border-radius: 0.4em;
+  margin-right: 0.5em;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.loss_pad {
+  background-color: #f5e5e6;
+}
+.profit_pad {
+  background-color: #e1f1ea;
+  margin-bottom: 0.5em;
+}

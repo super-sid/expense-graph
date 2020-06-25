@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Avenir";
+  src: url("./utils/fonts/AvenirLTStd.woff") format("woff");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.green--text {
+  color: #5feca9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.red--text {
+  color: #f3626c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.primary--text {
+  color: #002453;
 }
 
-.App-link {
-  color: #61dafb;
+.grey--text {
+  color: #9fa9ba;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.alt--background {
+  background-color: #dee6f4;
+}
+
+.primary--background {
+  background-color: #f8f9f9;
+}
+
+.red--background {
+  background-color: #f3626c;
+}
+
+.green--background {
+  background-color: #5feca9;
 }
