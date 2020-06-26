@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/expense-graph/static/css/main.d06f5c9e.chunk.css",
+    "main.js": "/expense-graph/static/js/main.9a0dd2ed.chunk.js",
+    "main.js.map": "/expense-graph/static/js/main.9a0dd2ed.chunk.js.map",
+    "runtime-main.js": "/expense-graph/static/js/runtime-main.28ac7d85.js",
+    "runtime-main.js.map": "/expense-graph/static/js/runtime-main.28ac7d85.js.map",
+    "static/js/2.063b6141.chunk.js": "/expense-graph/static/js/2.063b6141.chunk.js",
+    "static/js/2.063b6141.chunk.js.map": "/expense-graph/static/js/2.063b6141.chunk.js.map",
+    "index.html": "/expense-graph/index.html",
+    "precache-manifest.1d9e0a5b71264d1104c8514807cef55a.js": "/expense-graph/precache-manifest.1d9e0a5b71264d1104c8514807cef55a.js",
+    "service-worker.js": "/expense-graph/service-worker.js",
+    "static/css/main.d06f5c9e.chunk.css.map": "/expense-graph/static/css/main.d06f5c9e.chunk.css.map",
+    "static/js/2.063b6141.chunk.js.LICENSE.txt": "/expense-graph/static/js/2.063b6141.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/expense-graph/static/media/AvenirLTStd.c47b27e4.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28ac7d85.js",
+    "static/js/2.063b6141.chunk.js",
+    "static/css/main.d06f5c9e.chunk.css",
+    "static/js/main.9a0dd2ed.chunk.js"
+  ]
+}
