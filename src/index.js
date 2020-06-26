@@ -9,10 +9,13 @@ import { logger } from "redux-logger";
 import reducer from "./utils/reducers";
 
 import * as serviceWorker from "./serviceWorker";
+import { watcher } from "./utils/redux-saga/sagas";
 
 const sagaMiddleware = createSagaMiddleware();
 
 const store = createStore(reducer, applyMiddleware(sagaMiddleware, logger));
+
+sagaMiddleware.run(watcher);
 
 ReactDOM.render(
   <React.StrictMode>

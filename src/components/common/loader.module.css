@@ -1,0 +1,14 @@
+.loaderParent {
+  display: flex;
+  height: -webkit-fill-available;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderParent svg {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+  color: #002453;
+}

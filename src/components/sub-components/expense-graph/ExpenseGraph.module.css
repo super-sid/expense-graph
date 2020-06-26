@@ -1,11 +1,41 @@
 .options__row {
+  margin: 1em;
+}
+
+.options__row,
+.options__graph_row {
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin: 1em;
 }
-.options__col {
+
+.options__col,
+.options__col_type2 {
   order: 0;
+}
+
+.options__col_type2 {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-left: inherit;
+}
+
+.month__tag,
+.month__tag_selected {
+  order: 0;
+  font-family: 'Ariel';
+  padding: 0.5em;
+  margin: 0 0.5em;
+  color: #b1b9c6;
+  font-weight: bolder;
+}
+
+.month__tag:hover,
+.month__tag_selected {
+  background-color: #dfe7f5;
+  border-radius: 0.5em;
+  color: #1958d0;
 }
 
 .select__options_input {
